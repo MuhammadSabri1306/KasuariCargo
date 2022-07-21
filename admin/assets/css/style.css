@@ -1,0 +1,55 @@
+#formKota[readonly], #formTgl[readonly], #formKarung[readonly] {
+	background-color: #fff;
+}
+.btn-purple {
+	color: white;
+	background-color: #bf85d7;
+	border-color: #bf85d7;
+}
+
+.btn-purple:focus, .btn-purple:hover {
+	color: white;
+	background-color: #a468bd;
+	border-color: #954fb2;
+}
+.docdropdown {
+    flex-wrap: nowrap;
+    align-items: center;
+	display: none;
+	top: 60px;
+	right: 10px;
+	z-index: 9999;
+}
+
+.docdropdown a {
+	padding: 0.15rem 1rem;
+}
+
+.docdropdown.disp {
+	display: flex;
+}
+
+.fa.backup {
+	font-size: 60px;
+}
+
+@media (min-width:476px) {
+	.docdropdown {
+		top: 70px;
+	}
+}
+@media (min-width:680px) {
+	.fa.backup {
+		font-size: 80px;
+	}
+}
+@media (min-width:886px) {
+	.fa.backup {
+		font-size: 100px;
+	}
+}
+@media (min-width:1200px) {
+	.fa.backup {
+		font-size: 120px;
+	}
+}
